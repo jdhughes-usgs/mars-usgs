@@ -1,0 +1,21 @@
+name: agu2024mars
+channels:
+  - conda-forge
+dependencies:
+
+  # primary dependencies
+  - python
+
+  # jupyter dependencies
+  - jupyter
+  - jupyterlab
+  - jupyterlab_execute_time
+
+  # modflow dependencies
+  - flopy
+  - ffmpeg
+  - matplotlib
+  - modflowapi
+  - modflow-devtools
+  - numpy
+  - requests
